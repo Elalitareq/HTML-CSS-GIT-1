@@ -42,9 +42,13 @@
 .contact-form__field > fieldset {
   display: flex;
   flex-direction: column;
+  padding: 4px;
 }
 .contact-form__field > fieldset > label {
-  margin: 5px;
+  margin: 6px;
+}
+.contact-form__field > fieldset > label > input {
+  margin: 0 3px 5px 0;
 }
 .site-content {
   display: flex;
